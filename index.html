@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pakistan American Society</title>
+  <meta name="description" content="Pakistan American Society — serving our community with cultural, educational, and charitable programs." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <style>
+    :root { --ring: 214 100% 35%; }
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif; }
+        .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body class="bg-neutral-50 text-neutral-800">
+    <!-- Header / Nav -->
+    <header class="sticky top-0 z-30 border-b border-neutral-200 bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/70">
+        <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+            <a href="#home" class="flex items-center gap-2">
+                <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-600 text-white font-bold">PA</span>
+                <span class="font-semibold">Pakistan American Society</span>
+            </a>
+            <nav class="hidden gap-6 text-sm md:flex">
+                <a class="hover:text-emerald-700" href="#about">About</a>
+                <a class="hover:text-emerald-700" href="#events">Events</a>
+                <a class="hover:text-emerald-700" href="#initiatives">Initiatives</a>
+                <a class="hover:text-emerald-700" href="#updates">Updates</a>
+                <a class="hover:text-emerald-700" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="relative overflow-hidden">
+        <div class="absolute inset-0 -z-10 bg-gradient-to-b from-emerald-50 to-transparent"></div>
+        <div class="mx-auto max-w-6xl px-4 py-16 sm:py-24 grid gap-10 md:grid-cols-2 md:items-center">
+            <div>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-neutral-900">Connecting Pakistanis & Americans through community, culture, and service</h1>
+                <p class="mt-4 text-neutral-600 max-w-prose">We host simple, meaningful gatherings and volunteer programs year‑round — from <span class="font-semibold">14 August</span> Independence Day to <span class="font-semibold">Rabi‑ul‑Awwal</span> events, food drives, and youth mentoring.</p>
+                <div class="mt-6 flex flex-wrap gap-3">
+                    <a href="#events" class="inline-flex items-center rounded-xl bg-emerald-600 px-4 py-2 text-white font-semibold hover:bg-emerald-700">See Events</a>
+                    <a href="#contact" class="inline-flex items-center rounded-xl border border-neutral-300 px-4 py-2 text-neutral-800 hover:bg-neutral-100">Contact</a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="aspect-[4/3] w-full overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm">
+                    <div class="h-full w-full grid place-items-center">
+                        <div class="p-6 text-center">
+                            <div class="mx-auto mb-4 h-16 w-16 rounded-full bg-emerald-600/10 ring-4 ring-emerald-600/20"></div>
+                            <p class="text-lg font-semibold">Community First</p>
+                            <p class="mt-2 text-sm text-neutral-600">A simple, welcoming space for families, students, and professionals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="mx-auto max-w-6xl px-4 py-14">
+        <div class="grid gap-8 md:grid-cols-3 md:gap-12">
+            <div class="md:col-span-2">
+                <h2 class="text-2xl font-bold">About Us</h2>
+                <p class="mt-3 text-neutral-700 leading-relaxed">The Pakistan American Society is a volunteer‑led, non‑political community group. Our mission is to celebrate culture, support families, and empower youth through education, charity, and civic engagement.</p>
+                <ul class="mt-6 grid gap-3 sm:grid-cols-2">
+                    <li class="flex items-start gap-3"><span class="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-emerald-600"></span><span>Inclusive community events</span></li>
+                    <li class="flex items-start gap-3"><span class="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-emerald-600"></span><span>Volunteer & charity drives</span></li>
+                    <li class="flex items-start gap-3"><span class="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-emerald-600"></span><span>Youth mentorship & scholarships</span></li>
+                    <li class="flex items-start gap-3"><span class="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-emerald-600"></span><span>Interfaith & intercultural dialogue</span></li>
+                </ul>
+            </div>
+            <!-- <aside class="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+            <p class="text-sm font-semibold text-neutral-900">Next Meetup</p>
+            <p class="mt-1 text-sm text-neutral-600">Monthly chai & networking</p>
+            <p class="mt-3 text-2xl font-bold text-emerald-700">First Saturday</p>
+            <p class="text-sm text-neutral-600">6:00–8:00 PM • Community Center</p>
+            <a href="#contact" class="mt-5 inline-flex w-full items-center justify-center rounded-xl bg-emerald-600 px-4 py-2 text-white font-semibold hover:bg-emerald-700">RSVP</a>
+            </aside> -->
+        </div>
+    </section>
+
+    <!-- Events -->
+    <section id="events" class="border-t border-neutral-200 bg-white">
+        <div class="mx-auto max-w-6xl px-4 py-14">
+            <div class="flex items-end justify-between gap-4">
+                <h2 class="text-2xl font-bold">Community Events</h2>
+            </div>
+            <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- 14 August -->
+                <article class="rounded-2xl border border-neutral-200 bg-neutral-50 p-5">
+                    <p class="text-xs font-medium text-emerald-700">August 14</p>
+                    <h3 class="mt-1 text-lg font-semibold">Independence Day Gathering</h3>
+                    <p class="mt-2 text-sm text-neutral-700">Flag hoisting, naat/poetry, kids’ art corner, and community dinner.</p>
+                    <div class="mt-4 flex items-center justify-between text-sm">
+                        <span class="text-neutral-600">Community Park • 5 PM</span>
+                        <a href="#join" class="font-semibold text-emerald-700 hover:underline">Volunteer</a>
+                    </div>
+                </article>
+                <!-- Rabi-ul-Awwal -->
+                <article class="rounded-2xl border border-neutral-200 bg-neutral-50 p-5">
+                    <p class="text-xs font-medium text-emerald-700">Rabi‑ul‑Awwal</p>
+                    <h3 class="mt-1 text-lg font-semibold">Seerat‑un‑Nabi Program</h3>
+                    <p class="mt-2 text-sm text-neutral-700">A peaceful evening of naat, salaam, and reflections on character & service.</p>
+                    <div class="mt-4 flex items-center justify-between text-sm">
+                        <span class="text-neutral-600">Community Hall • 7 PM</span>
+                        <a href="#join" class="font-semibold text-emerald-700 hover:underline">Participate</a>
+                    </div>
+                </article>
+                <!-- Ramadan Drive -->
+                <article class="rounded-2xl border border-neutral-200 bg-neutral-50 p-5">
+                    <p class="text-xs font-medium text-emerald-700">Ramadan</p>
+                    <h3 class="mt-1 text-lg font-semibold">Food & Essentials Drive</h3>
+                    <p class="mt-2 text-sm text-neutral-700">Donate non‑perishables & hygiene kits; volunteer for packing and delivery.</p>
+                    <div class="mt-4 flex items-center justify-between text-sm">
+                        <span class="text-neutral-600">Multiple Locations</span>
+                        <a href="#join" class="font-semibold text-emerald-700 hover:underline">Donate</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members" class="border-t border-neutral-200 bg-white">
+        <div class="mx-auto max-w-6xl px-4 py-14">
+            <h2 class="text-2xl font-bold mb-8">Our Members</h2>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+                        <img src="https://via.placeholder.com/120" class="mx-auto h-24 w-24 rounded-full object-cover">
+                        <h3 class="mt-4 text-lg font-semibold">Shams Uz Zaman</h3>
+                        <p class="mt-2 text-sm text-neutral-700">President</p>
+                    </div>
+                    <div class="swiper-slide rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+                        <img src="https://via.placeholder.com/120" class="mx-auto h-24 w-24 rounded-full object-cover">
+                        <h3 class="mt-4 text-lg font-semibold">Dr Chaudhry Ashraf</h3>
+                        <p class="mt-2 text-sm text-neutral-700">Secretary General</p>
+                    </div>
+                    <div class="swiper-slide rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+                        <img src="https://via.placeholder.com/120" class="mx-auto h-24 w-24 rounded-full object-cover">
+                        <h3 class="mt-4 text-lg font-semibold">Syed Asif</h3>
+                        <p class="mt-2 text-sm text-neutral-700">Chief Coordinator</p>
+                    </div>
+                    <div class="swiper-slide rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+                        <img src="https://via.placeholder.com/120" class="mx-auto h-24 w-24 rounded-full object-cover">
+                        <h3 class="mt-4 text-lg font-semibold">Professor Saqlain Malik</h3>
+                        <p class="mt-2 text-sm text-neutral-700">National Advisor</p>
+                    </div>
+                    <div class="swiper-slide rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+                        <img src="https://via.placeholder.com/120" class="mx-auto h-24 w-24 rounded-full object-cover">
+                        <h3 class="mt-4 text-lg font-semibold">Suleman Butt</h3>
+                        <p class="mt-2 text-sm text-neutral-700">Senior Vice President</p>
+                    </div>
+                    <div class="swiper-slide rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+                        <img src="https://via.placeholder.com/120" class="mx-auto h-24 w-24 rounded-full object-cover">
+                        <h3 class="mt-4 text-lg font-semibold">Shahzad Anwar</h3>
+                        <p class="mt-2 text-sm text-neutral-700">Vice President</p>
+                    </div>
+                    <div class="swiper-slide rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+                        <img src="https://via.placeholder.com/120" class="mx-auto h-24 w-24 rounded-full object-cover">
+                        <h3 class="mt-4 text-lg font-semibold">Fahad Malik</h3>
+                        <p class="mt-2 text-sm text-neutral-700">Director Finance</p>
+                    </div>
+                    <div class="swiper-slide rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+                        <img src="https://via.placeholder.com/120" class="mx-auto h-24 w-24 rounded-full object-cover">
+                        <h3 class="mt-4 text-lg font-semibold">Mushtaq Ahmad Comboh</h3>
+                        <p class="mt-2 text-sm text-neutral-700">Director Religious</p>
+                    </div>
+                    <div class="swiper-slide rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+                        <img src="https://via.placeholder.com/120" class="mx-auto h-24 w-24 rounded-full object-cover">
+                        <h3 class="mt-4 text-lg font-semibold">Tasneem Shahzad</h3>
+                        <p class="mt-2 text-sm text-neutral-700">Director Media</p>
+                    </div>
+                    <div class="swiper-slide rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+                        <img src="https://via.placeholder.com/120" class="mx-auto h-24 w-24 rounded-full object-cover">
+                        <h3 class="mt-4 text-lg font-semibold">Rao Farooq Advocate</h3>
+                        <p class="mt-2 text-sm text-neutral-700">Director Public Affair</p>
+                    </div>
+                    <div class="swiper-slide rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+                        <img src="https://via.placeholder.com/120" class="mx-auto h-24 w-24 rounded-full object-cover">
+                        <h3 class="mt-4 text-lg font-semibold">Muhammad Saleem</h3>
+                        <p class="mt-2 text-sm text-neutral-700">Director Public School</p>
+                    </div>
+                    <div class="swiper-slide rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-center">
+                        <img src="https://via.placeholder.com/120" class="mx-auto h-24 w-24 rounded-full object-cover">
+                        <h3 class="mt-4 text-lg font-semibold">Qassar Mustafa Bhuttah</h3>
+                        <p class="mt-2 text-sm text-neutral-700">President New York State</p>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination mt-6"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Initiatives -->
+    <section id="initiatives" class="mx-auto max-w-6xl px-4 py-14">
+        <h2 class="text-2xl font-bold">Our Initiatives</h2>
+        <div class="mt-6 grid gap-6 md:grid-cols-3">
+            <div class="rounded-2xl border border-neutral-200 bg-white p-5">
+                <h3 class="font-semibold">Youth & Education</h3>
+                <p class="mt-1 text-sm text-neutral-700">Tutoring, mentorship, and workshops on careers, coding, and college prep.</p>
+            </div>
+            <div class="rounded-2xl border border-neutral-200 bg-white p-5">
+                <h3 class="font-semibold">Health & Wellness</h3>
+                <p class="mt-1 text-sm text-neutral-700">Monthly wellness talks, mental health awareness, and sports meetups.</p>
+            </div>
+            <div class="rounded-2xl border border-neutral-200 bg-white p-5">
+                <h3 class="font-semibold">Relief & Charity</h3>
+                <p class="mt-1 text-sm text-neutral-700">Local assistance and coordinated relief during emergencies and disasters.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery -->
+    <section id="gallery" class="border-t border-neutral-200 bg-white">
+        <div class="mx-auto max-w-6xl px-4 py-14">
+            <div class="flex items-end justify-between gap-4">
+                <h2 class="text-2xl font-bold">Video Gallery</h2>
+                <div class="flex items-center gap-2">
+                    <button id="vidPrev" class="inline-flex items-center rounded-xl border border-neutral-300 px-3 py-2 text-sm hover:bg-neutral-100" aria-label="Previous videos">‹</button>
+                    <button id="vidNext" class="inline-flex items-center rounded-xl border border-neutral-300 px-3 py-2 text-sm hover:bg-neutral-100" aria-label="Next videos">›</button>
+                </div>
+            </div>
+
+            <!-- Horizontal carousel with embedded players -->
+            <div id="videoTrack" class="mt-6 flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2">
+                <!-- Facebook post embeds (for share/p links) -->
+                <div class="min-w-[360px] md:min-w-[520px] snap-start rounded-2xl border border-neutral-200 bg-neutral-50 p-3">
+                <div class="aspect-video overflow-hidden rounded-xl">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=345&href=https%3A%2F%2Fwww.facebook.com%2Fshahzad.anwar.58910%2Fvideos%2F3056235927868759%2F&show_text=false&width=560&t=0" width="560" height="345" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                </div>
+                <p class="mt-2 text-sm font-medium">Facebook Post</p>
+                </div>
+
+                <!-- YouTube embed -->
+                <div class="min-w-[360px] md:min-w-[520px] snap-start rounded-2xl border border-neutral-200 bg-neutral-50 p-3">
+                <div class="aspect-video overflow-hidden rounded-xl">
+                    <iframe class="h-full w-full" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+                            src="https://www.youtube-nocookie.com/embed/xRJ0RvDUprg">
+                    </iframe>
+                </div>
+                <p class="mt-2 text-sm font-medium">YouTube</p>
+                </div>
+
+                    <!-- YouTube embed -->
+                <div class="min-w-[360px] md:min-w-[520px] snap-start rounded-2xl border border-neutral-200 bg-neutral-50 p-3">
+                <div class="aspect-video overflow-hidden rounded-xl">
+            <iframe width="928" height="522" src="https://www.youtube.com/embed/bJDEkODBgds" title="PAS celebrate Pakistan&#39;s Independence Day #dunya #news #tv #usa #2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p class="mt-2 text-sm font-medium">YouTube</p>
+                </div>
+
+                    <!-- Facebook post embeds (for share/p links) -->
+            <div class="min-w-[360px] height-[522px] snap-start rounded-2xl border border-neutral-200 bg-neutral-50 p-3">
+                <div class="aspect-video overflow-hidden rounded-xl">
+            <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fpakamericansocietypsausa%2Fvideos%2F2225528161212004%2F&show_text=false&width=332&t=0" width="332" height="922" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                </div>
+                <p class="mt-2 text-sm font-medium">Facebook Post</p>
+                </div>
+
+
+
+
+            </div>
+
+            <p class="mt-3 text-xs text-neutral-500">Tip: swipe on mobile or use the arrows. If a Facebook video/post doesn’t load, make sure you’re logged into Facebook in this browser.</p>
+        </div>
+    </section>
+
+
+    <!-- Updates / Posts -->
+    <section id="updates" class="border-t border-neutral-200 bg-white">
+        <div class="mx-auto max-w-6xl px-4 py-14">
+            <div class="flex items-end justify-between gap-4">
+                <h2 class="text-2xl font-bold">Latest Updates</h2>
+                <a href="#contact" class="text-sm hover:text-emerald-700">Send your story →</a>
+            </div>
+            <div class="mt-6 grid gap-6 md:grid-cols-2">
+                <article class="rounded-2xl border border-neutral-200 bg-neutral-50 p-5">
+                    <p class="text-xs text-neutral-600">Posted • Sep 10</p>
+                    <h3 class="mt-1 text-lg font-semibold">Thank you to our 14 August volunteers!</h3>
+                    <p class="mt-2 text-sm text-neutral-700">Over 120 community members joined for flag hoisting and dinner. Special thanks to youth volunteers who organized kids’ activities and cleanup.</p>
+                </article>
+                <article class="rounded-2xl border border-neutral-200 bg-neutral-50 p-5">
+                    <p class="text-xs text-neutral-600">Posted • Sep 5</p>
+                    <h3 class="mt-1 text-lg font-semibold">Rabi‑ul‑Awwal program schedule</h3>
+                    <p class="mt-2 text-sm text-neutral-700">Doors open 6:30 PM • Naat & salaam • Reflections • Tea & snacks. Families welcome.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="mx-auto max-w-6xl px-4 py-14">
+        <div class="grid gap-10 md:grid-cols-2">
+            <div>
+                <h2 class="text-2xl font-bold">Contact Us</h2>
+                <p class="mt-2 text-neutral-700">We’d love to hear from you. Reach us through any of the following ways:</p>
+                <ul class="mt-6 space-y-3 text-neutral-700">
+                    <li><strong>Email:</strong> info@pakistanamericansociety.org</li>
+                    <li><strong>Phone:</strong> (123) 456-7890</li>
+                    <li><strong>Address:</strong> 99 Button wood  rd Statenisland ny 10314</li>
+                </ul>
+            </div>
+            <div class="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
+                <h3 class="text-lg font-semibold">Follow Us</h3>
+                <p class="mt-2 text-sm text-neutral-700">Stay connected with us on social media:</p>
+                <div class="mt-6 flex gap-6 text-3xl text-emerald-700">
+                    <a href="#" aria-label="Facebook" class="hover:text-emerald-800">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    <a href="#" aria-label="Instagram" class="hover:text-emerald-800"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok" class="hover:text-emerald-800"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" aria-label="X" class="hover:text-emerald-800"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-neutral-200 bg-white">
+        <div class="mx-auto max-w-6xl px-4 py-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <p class="text-sm">© <span id="year"></span> Pakistan American Society. All rights reserved.</p>
+            <div class="text-sm text-neutral-600">Made with ❤️ for the community.</div>
+        </div>
+    </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        "@0.00": {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        "@1.00": {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        "@1.50": {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      },
+    });
+  </script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear()
+  </script>
+</body>
+</html>
